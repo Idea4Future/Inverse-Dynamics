@@ -91,3 +91,9 @@ python3 demo_code.py
 아래는 실습 코드를 실행했을 때 얻을 수 있는 결과 예시입니다.  
 
 ![tsid_qp_control](https://github.com/user-attachments/assets/f77ea7d5-6573-4a2f-b5bd-46b27557da3d)<img width="1500" height="1800" alt="tsid_qp_demo_plots" src="https://github.com/user-attachments/assets/a35985f8-d1db-456a-855a-c1eb11ff7ba2" /><img width="1800" height="750" alt="tsid_qp_demo_plots_explain" src="https://github.com/user-attachments/assets/b1166664-72af-4d0d-a65c-d207480052ae" />
+
+
+---
+## reference
+해당 튜토리얼 강의는 https://github.com/stack-of-tasks/tsid 자료와 강의를 참고하여 학습용으로 제작되었습니다.
+
