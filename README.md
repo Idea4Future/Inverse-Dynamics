@@ -23,77 +23,45 @@ Inverse-Dynamics Tutorial Lecture
 - **5강: 파이썬 실습 강의**
   - 2-자유도 로봇팔 모델 정의
   - TSID / QP 제어식 구현
-  - 👉 이 저장소의 `파이썬_실습_코드/` 폴더에 있는 파이썬 실습 코드를 사용합니다.  
+  - 👉 이 저장소의 `파이썬_실습_코드/` 폴더에 있는 파이썬 실습 코드를 사용합니다.
+ 
+- **6강: Mujoco 실습 강의**
+  - mujoco를 활용한 C++ 기반 panda//ur5 로봇 제어
+  - TSID / QP 제어식 구현
+
+---
+## 2. 파이썬 실습 강의 결과 (GIF & 이미지)
+
+아래는 파이썬 실습 코드를 실행했을 때 얻을 수 있는 결과입니다.  
+
+<table>
+  <tr>
+    <td align="left">
+      <img src="https://github.com/user-attachments/assets/f77ea7d5-6573-4a2f-b5bd-46b27557da3d"
+           alt="tsid_qp_control"
+           width="250">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a35985f8-d1db-456a-855a-c1eb11ff7ba2"
+           alt="tsid_qp_demo_plots"
+           width="400">
+    </td>
+    <td align="right">
+      <img src="https://github.com/user-attachments/assets/b1166664-72af-4d0d-a65c-d207480052ae"
+           alt="tsid_qp_demo_plots_explain"
+           width="400">
+    </td>
+  </tr>
+</table>
+---
+## 3. Mujoco 실습 강의 결과
+
+아래는 Mujoco 실습 코드를 실행했을 때 얻을 수 있는 결과입니다. 
 
 
 ---
-
-## 2. 파이썬 실습 코드 실행 방법
-
-### 2.1 기본 실행
-
-1. **터미널 실행**
-
-   Ubuntu에서 터미널을 엽니다.
-
-2. **저장소 폴더로 이동**
-
-   ```bash
-   cd ~/path/to/demo_code.py
-   ```
-
-3. **실습 코드 실행**
-
-   ```bash
-   python3 demo_code.py
-   ```
-
-4. **실행 결과**
-
-   코드 실행이 끝나면 다음과 같은 파일들이 `outputs/` 폴더에 생성됩니다.
-
-   - `tsid_qp_control.gif` : 2-자유도 로봇팔이 궤적을 추종하는 애니메이션
-   - `tsid_qp_demo_plots.png` : 조인트 `q`, `dq`, `ddq`, 토크, QP 솔버 상태 등의 시간 그래프
-   - `tsid_qp_demo_plots_explain.png` : 트래킹 에러, EE 궤적, 최종 포즈 등을 설명하는 플롯
-
-<br/>
-
-### 2.2 MP4 영상 저장을 위한 ffmpeg 설치 (선택 사항)
-
-코드를 실행했을 때 예를 들어 다음과 같은 출력이 보일 수 있습니다.
-
-```text
-Saved GIF: outputs/tsid_qp_control.gif
-MP4 save failed (need ffmpeg?): [WinError 2] 지정된 파일을 찾을 수 없습니다
-```
-
-이는 **GIF 파일은 저장되었지만, MP4 파일을 저장하려면 `ffmpeg`가 필요하다**는 의미입니다.
-
-Ubuntu에서 ffmpeg를 설치하려면 다음 명령을 실행합니다.
-
-```bash
-sudo apt update
-sudo apt install ffmpeg
-```
-
-설치 후 다시 코드를 실행합니다.
-
-```bash
-python3 demo_code.py
-```
-
-이제 `outputs/` 폴더에 GIF와 함께 MP4 파일도 저장되도록 설정할 수 있습니다.  
-
----
-
-## 3. 데모 결과 예시 (GIF & 이미지)
-
-아래는 실습 코드를 실행했을 때 얻을 수 있는 결과 예시입니다.  
-
-![tsid_qp_control](https://github.com/user-attachments/assets/f77ea7d5-6573-4a2f-b5bd-46b27557da3d)<img width="1500" height="1800" alt="tsid_qp_demo_plots" src="https://github.com/user-attachments/assets/a35985f8-d1db-456a-855a-c1eb11ff7ba2" /><img width="1800" height="750" alt="tsid_qp_demo_plots_explain" src="https://github.com/user-attachments/assets/b1166664-72af-4d0d-a65c-d207480052ae" />
-
-
----
-## reference
-해당 튜토리얼 강의는 https://github.com/stack-of-tasks/tsid 자료와 강의를 참고하여 학습용으로 제작되었습니다.
+## 4. Reference
+- 해당 튜토리얼 강의는 https://github.com/stack-of-tasks/tsid 자료와 강의를 참고하여 학습용으로 제작되었습니다.
+- Qontrol 실습 : https://gitlab.inria.fr/auctus-team/components/control/qontrol
+- (https://auctus-team.gitlabpages.inria.fr/components/control/qontrol/index.html)
 
