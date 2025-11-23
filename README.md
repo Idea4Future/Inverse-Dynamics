@@ -26,7 +26,7 @@ Inverse-Dynamics Tutorial Lecture
   - 👉 이 저장소의 `파이썬_실습_코드/` 폴더에 있는 파이썬 실습 코드를 사용합니다.
  
 - **6강: Mujoco 실습 강의**
-  - mujoco를 활용한 C++ 기반 panda//ur5 로봇 제어
+  - mujoco를 활용한 C++ 기반 panda/ur5 로봇 제어
   - TSID / QP 제어식 구현
 
 ---
@@ -53,7 +53,9 @@ Inverse-Dynamics Tutorial Lecture
     </td>
   </tr>
 </table>
+
 ---
+
 ## 3. Mujoco 실습 강의 결과
 
 아래는 Mujoco 실습 코드를 실행했을 때 얻을 수 있는 결과입니다. 
