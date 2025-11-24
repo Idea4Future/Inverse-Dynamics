@@ -55,10 +55,14 @@ Inverse-Dynamics Tutorial Lecture
 </table>
 
 ---
-
 ## 3. Mujoco 실습 강의 결과
 
-아래는 Mujoco 실습 코드를 실행했을 때 얻을 수 있는 결과입니다. 
+아래는 Mujoco 실습 코드를 실행했을 때 얻을 수 있는 결과입니다.  
+
+| 궤도 추적 제어 | interactive 제어 |
+| --- | --- |
+| <img src="https://github.com/user-attachments/assets/fd2f4a40-4156-4c05-98b2-b624fd3b09ab" alt="궤도 추적 제어" width="400" /> | <img src="https://github.com/user-attachments/assets/548b7a9c-1e65-4837-a643-7ece92c13640" alt="interactive 제어" width="400" /> |
+
 
 
 ---
