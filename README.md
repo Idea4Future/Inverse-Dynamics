@@ -1,4 +1,4 @@
-# Inverse-Dynamics
+# Inverse-Dynamics Tutorial
 Inverse-Dynamics Tutorial Lecture
 
 <br/>
@@ -72,6 +72,7 @@ Qontrol은 직렬 매니퓰레이터 로봇의 **optimization-based control 문�
   ```bash
   git clone https://gitlab.inria.fr/auctus-team/components/control/qontrol.git
   ```
+> Before building Qontrol, make sure the required dependencies (tinyXML2, Eigen3, and Pinocchio) are installed.
 
 
 
