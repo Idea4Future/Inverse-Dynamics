@@ -66,7 +66,6 @@ Inverse-Dynamics Tutorial Lecture
 ### 실습에 사용된 라이브러리 (Qontrol)
 
 이 Mujoco 실습에서는 **Qontrol**이라는 C++ 기반 최적화 제어 라이브러리를 사용합니다.  
-Qontrol은 직렬 매니퓰레이터 로봇의 **optimization-based control 문제를 간단하게 기술**할 수 있도록 설계된 라이브러리입니다.
 
 - Qontrol repository:  
   ```bash
